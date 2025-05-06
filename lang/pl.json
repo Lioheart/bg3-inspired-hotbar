@@ -250,11 +250,20 @@
             "Name": "Automatyczna skala interfejsu użytkownika",
             "Hint": "Automatycznie skaluj interfejs użytkownika w zależności od przeglądarki. Wyłącz poniższy parametr skalowania interfejsu użytkownika."
         },
+        "EnableGMHotbar": {
+            "Name": "Włącz pasek skrótów MG",
+            "Hint": "Pokaż specjalny pasek MG, gdy nie wybrano żadnego tokenu lub wybrano wiele tokenów."
+        },
         "Menu": {
             "Global": {
                 "Name": "Ustawienia ogólne",
                 "Hint": "Elementy natywne Foundry lub ogólne ustawienia interfejsu użytkownika BG3.",
-                "Label": "Konfiguracja ogólna"
+                "Label": "Konfiguracja ogólna",
+                "Sub": {
+                    "Foundry": "Foundry UI",
+                    "Scale": "Skala i pozycja",
+                    "Opacity": "Nieprzezroczystość i ukrycie"
+                }
             },
             "Theme": {
                 "Name": "Ustawienia motywu",
@@ -264,17 +273,27 @@
             "Portrait": {
                 "Name": "Ustawienia portretu",
                 "Hint": "Zaawansowane ustawienia portretu postaci.",
-                "Label": "Konfiguracja portretu"
+                "Label": "Konfiguracja portretu",
+                "Sub": {
+                    "Show": "Pokaż/Ukryj ustawienia",
+                    "Portrait": "Ustawienia portretu",
+                    "Other": "Inne ustawienia"
+                }
             },
             "Hotbar": {
                 "Name": "Ustawienia paska skrótów",
                 "Hint": "Zaawansowane ustawienia paska skrótów.",
-                "Label": "Konfiguracja paska skrótów"
+                "Label": "Konfiguracja paska skrótów",
+                "Sub": {
+                    "General": "Ogólne",
+                    "Common": "Wspólne działania",
+                    "Other": "Inne"
+                }
             },
             "Combat": {
-                "Name": "Ustawienia typowych działań",
-                "Hint": "Zaawansowane ustawienia typowych czynności.",
-                "Label": "Konfiguracja typowych działań"
+                "Name": "Ustawienia wspólnych działań",
+                "Hint": "Zaawansowane ustawienia wspólnych czynności.",
+                "Label": "Konfiguracja wspólnych działań"
             },
             "Populate": {
                 "Name": "Ustawienia automatycznego wypełniania",
@@ -293,9 +312,9 @@
             },
             "CPR": {
                 "Name": "Wybierz czynności RKO",
-                "Hint": "Wybierz czynności RKO, które mają być automatycznie wypełniane w kontenerze czynności typowych.",
+                "Hint": "Wybierz czynności RKO, które mają być automatycznie wypełniane w kontenerze wspólnych czynności.",
                 "Label": "Wybierz czynności RKO",
-                "UpTo6": "Wybierz czynności RKO, które mają być automatycznie wypełniane w kontenerze czynności typowych. Maksymalnie 6."
+                "UpTo6": "Wybierz czynności RKO, które mają być automatycznie wypełniane w kontenerze wspólnych czynności. Maksymalnie 6."
             }
         }
     }
